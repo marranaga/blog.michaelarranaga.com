@@ -35,13 +35,13 @@ subtitle: I have no idea what I'm doing.
 description: >- # this means to ignore newlines until "baseurl:"
   As I stumble through the world of IT, stick around!
   I might actually learn a thing or two.
-author: Michael Arranaga
+author: Michael Arrañaga
 email: WebMaster@marranaga.com
 avatar: https://i.imgur.com/mbkFdop.png
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.michaelarranaga.com" # the base hostname & protocol for your site
 
 # Social settings
 facebook_url:
@@ -57,5 +57,5 @@ twitter_url:
 google_analytics: UA-122936614-1
 
 # The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
+remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
