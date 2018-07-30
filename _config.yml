@@ -30,7 +30,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Michael Arranaga
+title: Michael Arrañaga
 subtitle: I have no idea what I'm doing.
 description: >- # this means to ignore newlines until "baseurl:"
   As I stumble through the world of IT, stick around!
