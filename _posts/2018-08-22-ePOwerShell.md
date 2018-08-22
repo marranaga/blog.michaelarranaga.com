@@ -96,17 +96,19 @@ Get-ePOwerShellMneRecoveryKey -ComputerName $env:ComputerName
 
 You should learn something new every day, and working on ePOwerShell definitely introduced me to a bunch of new concepts and ideas.
 
-1. Pester tests take forever. Like, forever forever.
+### Pester tests
+
+These take forever. Like, forever forever.
 
 Each function requires a Pester test to confirm that it's working. Each test requires examples for different use cases. This can quickly add up to dozens of files.
 
-2. Working on a project that's currently in a pull request does not pull secure environment values.
+### Pull requests and AppVeyor
 
-I didn't realize this. Not knowing this resulted in far too many commits to Git than I'd care to admin trying to get Appveyor to acknowledge an environment variable. 
+Working on a project that's currently in a pull request does not pull secure environment values. I didn't realize this. Not knowing this resulted in far too many commits to Git than I'd care to admin trying to get Appveyor to acknowledge an environment variable. 
 
-3. Sorting values from a `PSCustomObject` is extremely annoying and difficult (still a work in progress).
+### Sorting a `PSCustomObject`
 
-By default, when searching for a computer system in ePO, it returns a Json with names such as `EPOComputerSystem.ComputerName`, or `EPOComputerSystem.AgentGUID`. Since that was kinda ugly, I filtered off the `EPOComputerSystem` from the name. I also wanted to sort the items in each object by their name. Unfortunately, I haven't been successful with that last part.
+Sorting values from a `PSCustomObject` is extremely annoying and difficult (still a work in progress). By default, when searching for a computer system in ePO, it returns a Json with names such as `EPOComputerSystem.ComputerName`, or `EPOComputerSystem.AgentGUID`. Since that was kinda ugly, I filtered off the `EPOComputerSystem` from the name. I also wanted to sort the items in each object by their name. Unfortunately, I haven't been successful with that last part.
 
 ## Final thoughts
 
